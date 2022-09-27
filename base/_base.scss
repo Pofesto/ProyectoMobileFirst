@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /*1 rem = 10px*/
+    font-family: "DM Sans", sans-serif;
+}
+
+/* ---Colores--- */
+$bitcoin-orange: #F7931A;
+$soft-orange: #FFE9D5;
+$secondary-blue: #1A9AF7;
+$soft-blue: #E7F5FF;
+$warm-black: #201E1C;
+$warm-black-1: #282623;
+$gray: #BABABA;
+$off-white: #FAF8F7;
+$jusft-white: #FFFFFF;
+ 
+/* ---fuentes--- */
+$principal-font: "DM Sans", sans-serif;
+$secondary-font: 'Inter', sans-serif;
