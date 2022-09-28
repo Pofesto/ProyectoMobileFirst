@@ -1,0 +1,39 @@
+//----------------header----------------
+//-------header -> logo -------
+header img {
+    width: 150px;
+    height: 24px;
+    align-self: center;
+    margin-top: 60px;
+}
+//-------header -> titulo -------
+.header__tittle-container {
+    width: 90%;
+    height: 218px;
+    min-width: 288px;
+    max-width: 900px;
+    margin-top: 40px;
+    align-self: center;
+    text-align: center;
+}
+.header__tittle-container p {
+    margin-top: 24px;
+}
+//-------header -> button -------
+.header__button {
+    position: absolute;
+    width: 229px;
+    height: 48px;
+    padding: 15px;
+    top: calc(100% - (48px/2));
+	left: calc(50% - (229px/2));
+    color: $warm-black;
+}
+.header__button span {
+    width: 12px;
+    height: 7.41px;
+    margin-left: 10px;
+    display: inline-block;
+    background-image: url(assets/icons/down-arrow.svg);
+}
+
