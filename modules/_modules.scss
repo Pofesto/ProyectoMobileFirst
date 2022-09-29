@@ -36,4 +36,71 @@ header img {
     display: inline-block;
     background-image: url(assets/icons/down-arrow.svg);
 }
+//----------------main----------------
+//-------main -> first section -> bakcground -------
+.main-intercambio__background {
+    width: 195px;
+    height: 195px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+//-------main -> first section -> titulo -------
+.main-intercambio__titulo {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+    height: auto;
+}
+.main-intercambio__titulo h2 {
+    margin-bottom: 24px;
+}
+.main-intercambio__titulo p {
+    margin-bottom: 48px;
+}
+//-------main -> first section -> tabla -> titulo -------
+.main-intercambio-tabla__titulo {
+    margin-left: 12px;
+    margin-bottom: 12px;
+    text-align: start;
+}
+//-------main -> first section -> tabla -------
+.main-intercambio__tabla {
+    width: 65%;
+    margin: 0 auto;
+}
+.coins-container {
+    min-width: 203px;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-flow: column;
+    gap: 1px;
+    margin-bottom: 16px;
+}
+.coins-container .nombre-coin {
+    padding: 8px;
+    text-align: start;
+}
+.precio-coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.precio-coin--modificado {
+    justify-content: center;
+}
+.precio-coin span {
+    margin-right: 12.5px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+//-------main -> first section -> tabla -> registro -------
+.main-intercambio__date {
+    padding: 8px;
+    margin-bottom: 64px;
+}
 
+//-------main -> second section -> bakcground -------

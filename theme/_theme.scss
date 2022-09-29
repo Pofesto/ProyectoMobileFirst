@@ -25,5 +25,84 @@ header {
     font-weight: 700;
     text-decoration: none;
 }
-
-
+//----------------main----------------
+.main-intercambio {
+    background-color: $off-white;
+}
+//-------main -> first section -> bakcground -------
+.main-intercambio__background {
+    background: url(assets/img/Bitcoin.svg);
+}
+//-------main -> first section -> titulo -------
+.main-intercambio__titulo h2 {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+    text-align: center;
+    color: $warm-black;
+}
+.main-intercambio__titulo p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+//-------main -> first section -> tabla -> titulo -------
+.main-intercambio-tabla__titulo {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: #FF9536;
+}
+.main-intercambio-tabla__titulo--modificador {
+    color: $secondary-blue;
+}
+//-------main -> first section -> tabla -------
+.coins-container div {
+    font-family: $secondary-font;
+    background-color: $jusft-white;
+}
+.nombre-coin {
+    font-size: 1.6rem;
+	font-weight: 500;
+	color: #b5b0ac;
+}
+.precio-coin {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #757575;
+}
+.precio-coin span {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/icons/trending-down.svg);
+}
+.coins-container div:nth-child(6) span {
+    background-image: url(./assets/icons/trending-up.svg);
+}
+.coins-container div:nth-child(1) {
+    border-top-left-radius: 4px;
+}
+.coins-container div:nth-child(4) {
+    border-bottom-left-radius: 4px;
+}
+.coins-container div:nth-child(5) {
+    border-top-right-radius: 4px;
+}
+.coins-container div:nth-child(8) {
+    border-bottom-right-radius: 4px;
+}
+//-------main -> first section -> tabla -> registro -------
+.main-intercambio__date {
+    background-color: $soft-orange;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: $secondary-font;
+    color: $warm-black;
+}
+.main-intercambio__date--modificado {
+    background-color: $soft-blue;
+}
