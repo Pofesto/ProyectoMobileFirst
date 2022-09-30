@@ -104,3 +104,70 @@ header img {
 }
 
 //-------main -> second section -> bakcground -------
+.main-info {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-info__icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: calc(0% - 22px/2);
+}
+//-------main -> second section -> titulo -------
+.main-info__titulo {
+    margin-top: 50px;
+    text-align: center;
+}
+.main-info__titulo h2 {
+    margin-bottom: 24px;
+}
+.main-info__titulo p {
+    margin-bottom: 32px;
+}
+//-------main -> second section -> cartas -------
+.main-info-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.main-info-cards__card {
+    width: 65%;
+    min-width: 288px;
+    height: 152px;
+    padding: 15px;
+    margin-bottom: 16px;
+}
+.main-info-cards__icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 12px;
+}
+.main-info-cards__card h3 {
+    margin-bottom: 10px;
+}
+.main-decorativo {
+    width: 100%;
+    min-width: 320px;
+    height: 387px;
+    background-image: url(assets/img/bitcoinbaby2x.jpg);
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-decorativo p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: $jusft-white;
+    padding-top: 64px;
+}

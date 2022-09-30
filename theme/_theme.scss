@@ -106,3 +106,58 @@ header {
 .main-intercambio__date--modificado {
     background-color: $soft-blue;
 }
+
+//-------main -> second section -> bakcground -------
+.main-info {
+    background-color: $warm-black;
+}
+.main-info__icon {
+    background-image: url(assets/icons/batata.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+//-------main -> second section -> titulo -------
+.main-info__titulo h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: $jusft-white;
+}
+.main-info__titulo p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #808080;
+}
+//-------main -> second section -> cartas -------
+.main-info-cards__card {
+    background-color: $warm-black-1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+.main-info-cards__icon {
+    background-image: url("/assets/icons/clock.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main-info-cards__card h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: $jusft-white;
+}
+.main-info-cards__card p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #808080;
+}
+.main-info-cards__icon--eye {
+    background-image: url('assets/icons/eye.svg');
+}
+.main-info-cards__icon--dollar-sign {
+    background-image: url('assets/icons/dollar-sign.svg');
+}
+.main-info-cards__icon--check-circle {
+    background-image: url('assets/icons/check-circle.svg');
+}
